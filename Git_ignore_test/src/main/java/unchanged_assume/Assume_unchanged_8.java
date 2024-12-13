@@ -8,10 +8,10 @@ public class Assume_unchanged_8 {
 	      1. 처음부터 Assume_unchanged_8.java 파일을 .gitignore 파일속에 올려두지 않았습니다.
 	      2. Assume_unchanged_8.java 파일을 생성하면 Unstaged Changes(관리를 받지 않는 단계)에 들어와 있고 
 	         내용을 채우고 저장한 후  Staged Changes(관리를 받는 단계)에 들어오도록 만듭니다.
-	      3. Commit 을 하고 Push 도 합니다. 
-	        Web 의 git Hub 에 가보면 /MyGitExample/src/main/java/unchaged_assume/Assume_unchanged_8.java 파일이 Push 되어 보여집니다.
+	      3. Commit 을 하고 Push 도 합니다.
+	         Web 의 git Hub 에 가보면 /MyGitExample/src/main/java/unchaged_assume/Assume_unchanged_8.java 파일이 Push 되어 보여집니다.
 	      4. Assume_unchanged_8.java 파일의 내용을 변경합니다.
-	                파일을 저장하면 Unstaged Changes(관리를 받지 않는 단계)에 >(dirty) 모양으로 들어옵니다.
+	         파일을 저장하면 Unstaged Changes(관리를 받지 않는 단계)에 >(dirty) 모양으로 들어옵니다.
 	         Staged Changes(관리를 받는 단계)에 *(staged) 모양으로 들어와도 상관 없이 괜찮습니다.       
 	      5. Project Explorer 에서  Assume_unchanged_8.java 파일에 마우스 우클릭하여 
 	         Team => Advanced => Assume Unchanged(변경이 없음으로 가정함)를 클릭하면 
@@ -30,6 +30,9 @@ public class Assume_unchanged_8 {
 	                이제부터는 Staged Changes(관리를 받는 단계)에도 들어오게 되고 Commit 및 Push 대상이 되어집니다.          
 	    */
 	    System.out.println("==== Assume_unchanged_8.java 파일입니다. ====");
+	    System.out.println("==== 수정1 ====");
+	    System.out.println("==== 수정2 ====");
+	    System.out.println("완료");
 	}
 
 }
